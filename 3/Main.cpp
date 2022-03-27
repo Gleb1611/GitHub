@@ -5,24 +5,19 @@ using namespace std;
 int main()
 {
 
-	int a, b, c;
+	int a, b;
 
 	cout << "Input a, b and c:" << endl;
-	cin >> a >> b >> c;
+	cin >> a >> b;
 
 	int max = 0;
 
 	if (a > b && a > c)
 	{
 		max = a;
-	}else if (b > a && b > c)
+	}else
 	{
 		max = b;
-	}
-
-	else
-	{
-		max = c;
 	}
 
 	cout << max << endl;
